@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+    
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    position: relative;
+}
+.h1{
+    position: absolute;
+    left: 70px;
+    font-size: 20px;
+    top: 40px;
+}
+.fa-code-branch{
+    position: absolute;
+    left: 20px;
+    font-size: 30px;
+    color: darkslateblue;
+    top: 40px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 1rem;
+    
+}
+ul li:hover{
+    color: brown;
+    transition: 0.5s;
+}
+.content{
+    min-height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+background: url(https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJ1c2luZXNzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+    width: 100%;
+    height:400px;
+    background: url(https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    text-align: center;
+}
+.o{
+    color: orangered;
+    padding-bottom: 15px;
+}
+.s{
+    color: darkblue;
+    font-size: 20px;
+}
+.k{
+    color: darkgreen;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fa-xmark{
+    visibility: hidden;
+}
+.fa-bars{
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px){
+    .main{
+        position: relative;
+    }
+ nav ul{
+
+    position: absolute;
+    right: 0;
+    display: block;
+    height: 90vh;
+    background-color: cornflowerblue;
+    width: 60%;
+    transform: scaleX(0);
+}
+nav ul li{
+    display: flex;
+    padding-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-xmark{
+    font-size: 20px;
+    visibility: visible;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+} 
+nav ul.menu{
+    transform: scaleX(1);
+}
+.fa-bars{
+    visibility: visible;
+    position: absolute;
+    right: 10px;
+    font-size: 30px;
+    top: 20px;
+}
+
+.content{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+ul li:hover{
+    color: brown;
+    transition: 0.5s;
+}
+}
+
+
+
+
+
+
+
+
+
+
+    
